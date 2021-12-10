@@ -1,0 +1,1 @@
+# location-rating-generate-qr-code-get
