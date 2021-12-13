@@ -1,0 +1,22 @@
+{
+  "name": "location-rating-generate-qr-code-get",
+  "version": "1.0.0",
+  "description": "a function to generate a qr code and respond with a url to the qr code",
+  "main": "index.js",
+  "scripts": {
+    "test": "lambda-local -l index.js -h handler -e ./test/event.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggkilmon/location-rating-generate-qr-code-get.git"
+  },
+  "author": "Graham Kilmon <ggkilmon@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ggkilmon/location-rating-generate-qr-code-get/issues"
+  },
+  "homepage": "https://github.com/ggkilmon/location-rating-generate-qr-code-get#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lambda-local": "2.0.0"
+  }
+}
