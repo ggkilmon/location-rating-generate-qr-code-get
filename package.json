@@ -17,6 +17,7 @@
   "homepage": "https://github.com/ggkilmon/location-rating-generate-qr-code-get#readme",
   "dependencies": {
     "awesome-qr": "^2.1.5-rc.0",
+    "canvas": "^2.8.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
