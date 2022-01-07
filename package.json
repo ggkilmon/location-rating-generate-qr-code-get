@@ -4,7 +4,7 @@
   "description": "a function to generate a qr code and respond with a url to the qr code",
   "main": "index.js",
   "scripts": {
-    "test": "lambda-local -l index.js -h handler -e ./test/event.json"
+    "local": "lambda-local -l index.js -h handler -e ./test/event.json"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,12 @@
     "url": "https://github.com/ggkilmon/location-rating-generate-qr-code-get/issues"
   },
   "homepage": "https://github.com/ggkilmon/location-rating-generate-qr-code-get#readme",
-  "dependencies": {},
+  "dependencies": {
+    "awesome-qr": "^2.1.5-rc.0",
+    "uuid": "^8.3.2"
+  },
   "devDependencies": {
+    "aws-sdk": "^2.1052.0",
     "lambda-local": "2.0.0"
   }
 }
