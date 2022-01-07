@@ -2,7 +2,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - npm install
+      - npm install --only=prod
 artifacts:
   files:
     - ./**/*
