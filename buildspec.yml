@@ -3,9 +3,6 @@ phases:
   pre_build:
     commands:
       - npm install
-  build:
-    commands:
-      - aws lambda update-function-code --function-name location-rating-generate-qr-code-get --s3-bucket location-rating-generate-qr-code-build --s3-key location-rating-generate-qr-code-get-build
 artifacts:
   files:
     - ./**/*
