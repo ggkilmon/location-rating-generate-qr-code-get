@@ -2,8 +2,6 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - sudo amazon-linux-extras install epel
-      - sudo yum install nodejs npm
       - npm install --only=prod
 artifacts:
   files:
