@@ -2,7 +2,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - npm install --only=prod
+      - sudo yum install gcc-c++ cairo-devel pango-devel libjpeg-turbo-devel giflib-devel
+      - npm install --only=prod --build-from-source
 artifacts:
   files:
     - ./**/*
